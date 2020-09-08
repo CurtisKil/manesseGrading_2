@@ -1,0 +1,78 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #2651a8 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  /* background: rgba(0, 0, 0, 0.7); */
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .card-extras {
+  background-color: #2651a8;
+}
+
+.bg-contact {
+  background-color: #2651a8;
+}
+.bg-services {
+  background-color: #2651a8;
+}
+
+.btn-background {
+  background-color: #2651a8;
+}
+
+.form-bg {
+  background: #2651a8;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #2651a8;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#main-footer ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#main-footer ul a {
+  color: white;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
