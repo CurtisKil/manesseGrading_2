@@ -113,9 +113,21 @@ body {
   color: #6c757d;
 }
 
-@media (max-width: 769px) {
+@media (min-width: 1200px) {
+  #home-section {
+    background-attachment: scroll;
+    min-height: 1100px;
+  }
+
+  #home-section .dark-overlay {
+    min-height: 1100px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (max-width: 766px) {
   #create-section {
-    height: 1100px;
+    height: 1350px;
     padding-top: 20px !important;
     padding-bottom: 20px !important;
   }
@@ -169,5 +181,24 @@ body {
   #create-section img {
     height: 400px;
     margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 993px), screen and (min-width: 767px) {
+  #create-section {
+    height: 1100px;
+  }
+
+  #create-section img {
+    margin-top: 200px !important;
+    height: 500px;
+  }
+  #create-section img {
+    margin-top: 100px !important;
+    height: 500px;
+  }
+
+  #create-section .font {
+    font-size: 23px;
   }
 }
