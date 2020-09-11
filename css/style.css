@@ -127,13 +127,34 @@ body {
 
 @media (min-width: 576px) {
   #create-section {
-    height: 1500px;
+    height: 1000px;
     padding-top: 20px !important;
     padding-bottom: 20px !important;
   }
 
   #create-section img {
-    height: 400px;
+    margin-top: 50px !important;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #create-section .font {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 990px) {
+  #create-section {
+    height: 1000px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  #create-section img {
+    margin-top: 50px !important;
+    height: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
