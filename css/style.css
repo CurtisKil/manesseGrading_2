@@ -133,7 +133,12 @@ body {
 @media (max-width: 575px) {
   #home-section {
     background-attachment: scroll;
-    background-size: 570px 800px;
+    background-size: 500px 700px;
+    height: 700px;
+  }
+
+  #home-section .dark-overlay {
+    min-height: 600px;
   }
 
   #home-section h1 {
