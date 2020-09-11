@@ -184,7 +184,7 @@ body {
   }
 }
 
-@media screen and (max-width: 993px), screen and (min-width: 767px) {
+/* @media screen and (max-width: 993px), screen and (min-width: 769px) {
   #create-section {
     height: 1100px;
   }
@@ -201,4 +201,4 @@ body {
   #create-section .font {
     font-size: 23px;
   }
-}
+} */
