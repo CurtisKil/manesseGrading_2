@@ -13,7 +13,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 600px;
+  min-height: 800px;
+}
+
+#home-section h1 {
+  font-size: 55px;
+  padding-top: 19px;
 }
 
 #home-section .dark-overlay {
@@ -21,8 +26,8 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 700px;
-  /* background: rgba(0, 0, 0, 0.7); */
+  min-height: 800px;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 #home-section .home-inner {
@@ -52,6 +57,10 @@ body {
   background: #2651a8;
 }
 
+#create-section {
+  height: 850px;
+}
+
 #home-section .fas,
 #create-section .fas {
   color: #2651a8;
@@ -75,4 +84,62 @@ body {
   color: #fff;
   padding: 5px;
   border-radius: 5px;
+}
+
+#share-head-section ul {
+  list-style-type: none;
+  font-size: 25px;
+  color: #6c757d;
+}
+
+#share-head-section a {
+  color: #6c757d;
+}
+
+@media (max-width: 769px) {
+  #create-section {
+    height: 1100px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  #create-section img {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Extra small devices (portrait phones)*/
+
+@media (max-width: 575px) {
+  #home-section {
+    background-position-x: 40%;
+    background-size: none;
+  }
+
+  #explore-section {
+    padding-bottom: 20px !important;
+  }
+
+  #explore-section h3 {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  #explore-section p {
+    text-align: center;
+  }
+
+  #create-section {
+    height: 1200px;
+    padding-top: 30px !important;
+    padding-bottom: 20px !important;
+  }
+
+  #create-section img {
+    height: 400px;
+    margin-left: 30px;
+  }
 }
